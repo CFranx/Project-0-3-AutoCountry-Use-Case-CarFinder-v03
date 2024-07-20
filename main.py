@@ -46,9 +46,8 @@ def addCar(allowedVehiclesList):
       vehiclesList.write(car + "\n")
     print(f'You have added "{car}" as an authorized vehicle')
   else:
-    print(f'"{car}"is already authorized')
+    print(f'"{car}" is already authorized')
     
-
 
 def main(allowedVehiclesList, menu):
   while True:
@@ -65,7 +64,7 @@ def main(allowedVehiclesList, menu):
       print(exitString)
       return exitString   
     else:
-      print("\nPlease enter 1 or 2.\n")
+      print("\nPlease enter a number from the menu.\n")
 
 
 if __name__ == "__main__":
